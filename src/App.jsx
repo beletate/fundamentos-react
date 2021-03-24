@@ -8,10 +8,28 @@ import ComFilhos from './components/ComFilhos'
 
 import Card from './components/layout/Card'
 
+import Repeticao from './components/Repeticao'
+import Condicional from './components/Condicional'
+import CondicionalComIf from './components/CondicionalComIf'
+
+
+
 export default props => (
     <div className="App">
 
-        <Card titulo="Component com parametros">
+        <Card titulo="#05 - Component condicional v2">
+            <CondicionalComIf numero={10} />
+        </Card>
+
+        <Card titulo="#05 - Component condicional v1">
+            <Condicional numero={10} />
+        </Card>
+
+        <Card titulo="#04 - Component de repetição">
+            <Repeticao />
+        </Card>
+
+        <Card titulo="#03 - Component com parametros">
 
             <ComParametro
                 titulo="Esse é o titulo"
@@ -20,8 +38,8 @@ export default props => (
                 titulo="Opa"
                 subtitulo="Epa" />
         </Card>
-        
-        <Card titulo="Component com filhos">
+
+        <Card titulo="#02 - Component com filhos">
 
             <ComFilhos>
                 <ul>
@@ -33,7 +51,7 @@ export default props => (
             </ComFilhos>
         </Card>
 
-        <Card titulo='Primeiro Component'>
+        <Card titulo='#01 - Primeiro Component'>
             <Primeiro />
         </Card>
 
