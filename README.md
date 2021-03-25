@@ -1,6 +1,6 @@
 # Fundamentos em React JS
 
-Check online: [https://beletate.github.io/fundamentos-react/](Click!)
+Check online: [Click!](https://beletate.github.io/fundamentos-react/)
 
 ## Available Scripts
 
